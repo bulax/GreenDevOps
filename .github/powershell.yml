@@ -8,12 +8,11 @@ jobs:
   echo-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout kodu
+      - name: Checkout kodu PS1
         uses: actions/checkout@v3
 
-      
-      - name: Wypisz zawartość katalogu
+      - name: Wypisz zawartość katalogu PS1
         run: ls -la
 
-      - name: Komunikat końcowy
+      - name: Komunikat końcowy PS1
         run: echo "GitHub PS1 Actions działa poprawnie"
