@@ -2,7 +2,7 @@ name: Minimalne CI – plik tekstowy
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   echo-test:
