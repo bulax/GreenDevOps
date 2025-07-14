@@ -1,18 +1,18 @@
 name: Minimalne CI – plik tekstowy
 
 on:
-push:
-branches: [ main ]
+  push:
+    branches: [ main ]
 
 jobs:
-echo-test:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout kodu
-uses: actions/checkout@v3
+  echo-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout kodu
+        uses: actions/checkout@v3
 
-  - name: Wypisz zawartość katalogu
-    run: ls -la
+      - name: Wypisz zawartość katalogu
+        run: ls -la
 
-  - name: Komunikat końcowy
-    run: echo "GitHub Actions działa poprawnie"
+      - name: Komunikat końcowy
+        run: echo "GitHub Actions działa poprawnie"
