@@ -1,2 +1,2 @@
 Hello Git
-To jest zmiana w main
+To Linia Edytowana przez A.
