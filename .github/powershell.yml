@@ -3,7 +3,7 @@ name: Pliki PS1
 on:
   push:
      paths:
-      - '**.ps1'
+      - '*.ps1'
 
 jobs:
   echo-test:
