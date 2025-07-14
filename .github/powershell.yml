@@ -1,7 +1,8 @@
 name: Pliki PS1
 
 on:
-        paths:
+  push:
+     paths:
       - '**.ps1'
 
 jobs:
