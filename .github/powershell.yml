@@ -2,7 +2,7 @@ name: Pliki PS1
 
 on:
         paths:
-      - '*.ps1'
+      - '*.ps1*'
 
 jobs:
   echo-test:
