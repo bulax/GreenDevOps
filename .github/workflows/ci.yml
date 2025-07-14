@@ -11,6 +11,15 @@ jobs:
       - name: Checkout kodu
         uses: actions/checkout@v3
 
+      - name: Eslint Install
+        run: npm install eslint --save-dev
+
+      - name: Eslint Init
+        run: npx eslint --init 
+
+      - name: Eslint Run
+        run: npx eslint . --ext .js,.jsx,.ts,.tsx
+
       - name: Wypisz zawartość katalogu
         run: ls -la
 
