@@ -15,4 +15,4 @@ uses: actions/checkout@v3
     run: ls -la
 
   - name: Komunikat koncowy
-    run: echo "GitHub Actions dziala‚a poprawnie"
+    run: echo "GitHub Actions dziala poprawnie"
