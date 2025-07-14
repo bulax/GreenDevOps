@@ -1,4 +1,4 @@
-name: Minimalne CI plik tekstowy
+name: Minimalne CI – plik tekstowy
 
 on:
 push:
@@ -11,8 +11,8 @@ steps:
 - name: Checkout kodu
 uses: actions/checkout@v3
 
-  - name: Wypisz zawartosc katalogu
+  - name: Wypisz zawartość katalogu
     run: ls -la
 
-  - name: Komunikat koncowy
-    run: echo "GitHub Actions dziala poprawnie"
+  - name: Komunikat końcowy
+    run: echo "GitHub Actions działa poprawnie"
