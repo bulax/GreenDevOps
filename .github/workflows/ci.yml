@@ -18,7 +18,7 @@ jobs:
         run: npx eslint --init 
 
       - name: Eslint Run
-        run: npx eslint . --ext .js,.jsx,.ts,.tsx,ps1
+        run: npx eslint . --ext .js,.jsx,.ts,.tsx,.ps1
 
       - name: Wypisz zawartość katalogu
         run: ls -la
